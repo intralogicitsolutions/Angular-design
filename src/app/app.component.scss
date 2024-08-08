@@ -95,10 +95,15 @@ button.mat-icon-button {
   box-shadow: 0 -0.125rem 0.25rem rgba(0, 0, 0, 0.075);
 }
 
-.profile-icon {
-  font-size: 28px;
-  height: 28px !important;
-  width: 28px !important;
+.profile-btn {
+  height: 40px;
+  line-height: 40px;
+  
+  .profile-icon {
+    font-size: 35px;
+    height: 35px !important;
+    width: 35px !important;
+  }
 }
 
 .expansion-panel {
