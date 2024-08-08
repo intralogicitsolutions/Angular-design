@@ -17,12 +17,12 @@
 
 .menu-drawer {
   width: 300px; /* Adjust width as needed */
-  background-color: var(--primary-color); /* Main background color */
-  color: var(--primary-light-color); /* Text color */
+  background-color: var(--secondary-color); /* Main background color */
+  color: var(--secondary-light-color); /* Text color */
 }
 
 .menu-drawer .mat-list-item {
-  color: var(--primary-light-color);
+  color: var(--secondary-light-color);
   font-size: 16px;
 }
 
@@ -46,7 +46,7 @@ button.mat-icon-button {
   top: 16px;
   left: 16px;
   z-index: 2;
-  color: var(--primary-light-color); /* Icon color */
+  color: var(--secondary-light-color); /* Icon color */
 }
 
 .sub-menu-title {
@@ -64,11 +64,11 @@ button.mat-icon-button {
   box-shadow: none !important;
 
   .panel-title {
-    color: var(--primary-light-color);
+    color: var(--secondary-light-color);
   }
 
   .mat-expansion-indicator::after {
-    color: var(--primary-light-color);
+    color: var(--secondary-light-color);
   }
 
   .mat-expansion-panel-header {
