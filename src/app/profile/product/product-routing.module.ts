@@ -10,6 +10,7 @@ const routes: Routes = [
     children: [
       {
         path: 'details',
+        data: { title: 'Product Details' },
         component: DetailsComponent,
       },
     ],
