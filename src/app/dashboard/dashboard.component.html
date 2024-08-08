@@ -1,4 +1,11 @@
-<div fxLayout="row" fxLayoutGap="16px" fxLayoutWrap>
+<mat-chip-list aria-label="Dog selection">
+    <mat-chip>
+        <mat-icon>apartment</mat-icon>
+        &nbsp;Company Updates
+    </mat-chip>
+</mat-chip-list>
+
+<div fxLayout="row" fxLayoutGap="16px" fxLayoutWrap class="mt-4">
     <mat-card class="mat-elevation-z4 company-card mat-typography w-50">
         <mat-card-header>
             <div mat-card-avatar class="example-header-image">
@@ -7,11 +14,16 @@
             <mat-card-title>Favourite Company</mat-card-title>
         </mat-card-header>
         <mat-card-content>
-            <p class="d-flex align-items-center"><mat-icon class="company-fav">star</mat-icon>&nbsp;&nbsp;News Items #1</p>
-            <p class="d-flex align-items-center"><mat-icon class="company-fav">star</mat-icon>&nbsp;&nbsp;News Items #2</p>
-            <p class="d-flex align-items-center"><mat-icon class="company-fav">star</mat-icon>&nbsp;&nbsp;News Items #3</p>
-            <p class="d-flex align-items-center"><mat-icon class="company-fav">star</mat-icon>&nbsp;&nbsp;News Items #4</p>
-            <p class="d-flex align-items-center"><mat-icon class="company-fav">star</mat-icon>&nbsp;&nbsp;News Items #5</p>
+            <p class="d-flex align-items-center"><mat-icon class="company-fav">star</mat-icon>&nbsp;&nbsp;News Items #1
+            </p>
+            <p class="d-flex align-items-center"><mat-icon class="company-fav">star</mat-icon>&nbsp;&nbsp;News Items #2
+            </p>
+            <p class="d-flex align-items-center"><mat-icon class="company-fav">star</mat-icon>&nbsp;&nbsp;News Items #3
+            </p>
+            <p class="d-flex align-items-center"><mat-icon class="company-fav">star</mat-icon>&nbsp;&nbsp;News Items #4
+            </p>
+            <p class="d-flex align-items-center"><mat-icon class="company-fav">star</mat-icon>&nbsp;&nbsp;News Items #5
+            </p>
         </mat-card-content>
     </mat-card>
     <mat-card class="mat-elevation-z4 product-card w-50">
@@ -22,33 +34,46 @@
             <mat-card-title>Favourite Product</mat-card-title>
         </mat-card-header>
         <mat-card-content>
-            <p class="d-flex align-items-center"><mat-icon class="product-fav">star</mat-icon>&nbsp;&nbsp;News Items #1</p>
-            <p class="d-flex align-items-center"><mat-icon class="product-fav">star</mat-icon>&nbsp;&nbsp;News Items #2</p>
-            <p class="d-flex align-items-center"><mat-icon class="product-fav">star</mat-icon>&nbsp;&nbsp;News Items #3</p>
-            <p class="d-flex align-items-center"><mat-icon class="product-fav">star</mat-icon>&nbsp;&nbsp;News Items #4</p>
-            <p class="d-flex align-items-center"><mat-icon class="product-fav">star</mat-icon>&nbsp;&nbsp;News Items #5</p>
+            <p class="d-flex align-items-center"><mat-icon class="product-fav">star</mat-icon>&nbsp;&nbsp;News Items #1
+            </p>
+            <p class="d-flex align-items-center"><mat-icon class="product-fav">star</mat-icon>&nbsp;&nbsp;News Items #2
+            </p>
+            <p class="d-flex align-items-center"><mat-icon class="product-fav">star</mat-icon>&nbsp;&nbsp;News Items #3
+            </p>
+            <p class="d-flex align-items-center"><mat-icon class="product-fav">star</mat-icon>&nbsp;&nbsp;News Items #4
+            </p>
+            <p class="d-flex align-items-center"><mat-icon class="product-fav">star</mat-icon>&nbsp;&nbsp;News Items #5
+            </p>
         </mat-card-content>
     </mat-card>
 </div>
 
 <div fxLayout="row" fxLayoutGap="16px" fxLayoutWrap class="mt-4">
     <mat-accordion class="w-100">
-        <mat-expansion-panel [expanded]="true" class="news-studio mat-elevation-z4 ">
+        <mat-expansion-panel class="news-studio mat-elevation-z4 ">
             <mat-expansion-panel-header>
                 <mat-panel-title>
                     <mat-icon class="news mr-2">newspaper</mat-icon>
                     <span class="ml-2" style="margin-left: 16px;">News Studio</span>
                 </mat-panel-title>
             </mat-expansion-panel-header>
-            <p class="d-flex align-items-center"><mat-icon class="news-updates">start</mat-icon>&nbsp;&nbsp;News Items #1</p>
-            <p class="d-flex align-items-center"><mat-icon class="news-updates">start</mat-icon>&nbsp;&nbsp;News Items #2</p>
-            <p class="d-flex align-items-center"><mat-icon class="news-updates">start</mat-icon>&nbsp;&nbsp;News Items #3</p>
-            <p class="d-flex align-items-center"><mat-icon class="news-updates">start</mat-icon>&nbsp;&nbsp;News Items #4</p>
-            <p class="d-flex align-items-center"><mat-icon class="news-updates">start</mat-icon>&nbsp;&nbsp;News Items #5</p>
+            <p class="d-flex align-items-center"><mat-icon class="news-updates">start</mat-icon>&nbsp;&nbsp;News Items
+                #1</p>
+            <p class="d-flex align-items-center"><mat-icon class="news-updates">start</mat-icon>&nbsp;&nbsp;News Items
+                #2</p>
+            <p class="d-flex align-items-center"><mat-icon class="news-updates">start</mat-icon>&nbsp;&nbsp;News Items
+                #3</p>
+            <p class="d-flex align-items-center"><mat-icon class="news-updates">start</mat-icon>&nbsp;&nbsp;News Items
+                #4</p>
+            <p class="d-flex align-items-center"><mat-icon class="news-updates">start</mat-icon>&nbsp;&nbsp;News Items
+                #5</p>
         </mat-expansion-panel>
     </mat-accordion>
-    <mat-accordion class="w-100">
-        <mat-expansion-panel [expanded]="true" class="key-updates mat-elevation-z4 ">
+    </div>
+
+<div fxLayout="row" fxLayoutGap="16px" fxLayoutWrap class="mt-4 mb-4">
+   <mat-accordion class="w-100">
+        <mat-expansion-panel  class="key-updates mat-elevation-z4 ">
             <mat-expansion-panel-header>
                 <mat-panel-title>
                     <mat-icon class="news mr-2">description</mat-icon>

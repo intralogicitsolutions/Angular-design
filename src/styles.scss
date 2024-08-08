@@ -39,3 +39,6 @@ mat-drawer-content {
     --secondary-accent-dark-color: #6F8419;
 }
 
+.mat-drawer-content {
+    overflow: hidden !important;
+}
