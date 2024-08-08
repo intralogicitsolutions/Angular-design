@@ -10,7 +10,16 @@ import { MatChipsModule } from '@angular/material/chips';
 
 @NgModule({
   declarations: [],
-  imports: [],
+  imports: [
+    MatSidenavModule,
+    MatButtonModule,
+    MatIconModule,
+    MatCardModule,
+    FlexLayoutModule,
+    MatListModule,
+    MatExpansionModule,
+    MatChipsModule,
+  ],
   exports: [
     MatSidenavModule,
     MatButtonModule,
