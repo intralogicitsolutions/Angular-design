@@ -70,7 +70,7 @@ button.mat-icon-button {
 
 .mat-toolbar {
   height: 56px !important;
-  background-color: var(--primary-light-color);
+  background-color: var(--header-bg-color);
 }
 
 .toolbar-div {
@@ -91,7 +91,7 @@ button.mat-icon-button {
   align-items: center;
   padding: 0px 24px;
   font-size: 15px;
-  background-color: var(--primary-light-color);
+  background-color: var(--footer-bg-color);
   box-shadow: 0 -0.125rem 0.25rem rgba(0, 0, 0, 0.075);
 }
 
