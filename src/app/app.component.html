@@ -86,11 +86,19 @@
     <div class="content">
         <div class="toolbar-div shadow">
             <mat-toolbar class="p-0">
-                <button type="button" mat-button (click)="drawer.toggle()" class="mx-2">
-                    <mat-icon>menu</mat-icon>
-                </button>
-                <span class="pt-1">{{currentRoute}}</span>
-                <span class="example-spacer"></span>
+                <div class="d-flex justify-content-between align-items-center w-100 h-100 px-2">
+                    <div class="d-flex align-items-center">
+                        <button type="button" mat-button (click)="drawer.toggle()">
+                            <mat-icon>menu</mat-icon>
+                        </button>
+                        <span class="px-2 pt-1">{{currentRoute}}</span>
+                    </div>
+                    <div>
+                        <button type="button" mat-button>
+                            <mat-icon>account_circle</mat-icon>
+                        </button>
+                    </div>
+                </div>
             </mat-toolbar>
         </div>
         <div class="m-4 bg-color mat-typography">
