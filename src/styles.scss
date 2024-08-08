@@ -1,41 +1,65 @@
 /* You can add global styles to this file, and also import other style files */
 /* Global styles */
 * {
-    font-family: "Josefin Sans", sans-serif !important;
+  font-family: "Josefin Sans", sans-serif !important;
 }
 
 /* Exclude mat-icon from the global font-family */
 mat-icon {
-    font-family: 'Material Icons' !important; /* Reset font-family to default */
+  font-family: "Material Icons" !important; /* Reset font-family to default */
 }
 html,
 body {
-    height: 100%;
-    margin: 0px;
-    background-color: #edf1f8 !important;
+  height: 100%;
+  margin: 0px;
+  background-color: #edf1f8 !important;
 }
 
 mat-drawer-content {
-    background-color: #edf1f8 !important;
+  background-color: #edf1f8 !important;
 }
 
 // ========== THEME COLOR ========== //
 :root {
+  // MAIN COLORS (All text*, navigation, banner fills, label cells for tables)
+  --primary-color: #0562cb;
+  --secondary-color: #0d2b68;
+  --primary-light-color: #c4dffe;
+  --secondary-light-color: #b9cdf6;
+  --primary-dark-color: #044a98;
+  --secondary-dark-color: #061634;
 
-    // MAIN COLORS (All text*, navigation, banner fills, label cells for tables)
-    --primary-color: #0562CB;
-    --secondary-color: #0D2B68;
-    --primary-light-color: #C4DFFE;
-    --secondary-light-color: #B9CDF6;
-    --primary-dark-color: #044A98;
-    --secondary-dark-color: #061634;
-
-    // ACCENT COLORS (Buttons, icons, important info/callouts)
-    --primary-accent-color: #1D8FA9;
-    --secondary-accent-color: #94B022;
-    --primary-accent-light-color: #CAEEF6;
-    --secondary-accent-light-color: #F2F7D9;
-    --primary-accent-dark-color: #166B7F;
-    --secondary-accent-dark-color: #6F8419;
+  // ACCENT COLORS (Buttons, icons, important info/callouts)
+  --primary-accent-color: #1d8fa9;
+  --secondary-accent-color: #94b022;
+  --primary-accent-light-color: #caeef6;
+  --secondary-accent-light-color: #f2f7d9;
+  --primary-accent-dark-color: #166b7f;
+  --secondary-accent-dark-color: #6f8419;
 }
 
+// ========== CUSTOM SCROLLBAR ========== //
+/* For Webkit browsers (Chrome, Safari, Edge) */
+::-webkit-scrollbar {
+  width: 5px; /* Adjust the width as needed */
+}
+
+::-webkit-scrollbar-track {
+  background: #f1f1f1; /* Track color */
+}
+
+::-webkit-scrollbar-thumb {
+  background: #888; /* Thumb color */
+  border-radius: 10px !important; /* Rounded corners */
+  border: 2px solid #f1f1f1;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #555 !important; /* Thumb hover color */
+}
+
+/* For Firefox */
+* {
+  scrollbar-width: thin; /* "auto" or "thin" */
+  scrollbar-color: #888 #f1f1f1; /* thumb and track color */
+}

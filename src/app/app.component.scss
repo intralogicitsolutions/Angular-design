@@ -12,7 +12,9 @@
 
 .company-title {
   font-size: 24px;
-  margin: 35px 20px;
+  margin: 35px 20px 35px 26px;
+  font-weight: 600;
+  color: var(--secondary-accent-light-color);
 }
 
 .menu-drawer {
@@ -30,6 +32,12 @@
   background-color: var(
     --primary-dark-color
   ); /* Highlight color for active item */
+}
+
+.nav-list {
+  .mat-list-item .mat-list-item-content {
+    padding: 0px 24px !important;
+  }
 }
 
 .menu-drawer .mat-icon {
@@ -72,7 +80,7 @@ button.mat-icon-button {
   }
 
   .mat-expansion-panel-header {
-    padding: 0 16px !important;
+    padding: 0 24px !important;
   }
 
   .mat-expansion-panel-body {
