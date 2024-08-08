@@ -22,6 +22,7 @@
     align-items: flex-end;
     margin: -16px -16px 16px -16px !important;
     padding: 16px 16px 8px 16px;
+    border-radius: 8px 8px 0 0;
 }
 
 .mat-card-avatar {
@@ -45,6 +46,7 @@
         cursor: pointer;
         background: #94b022;
         color: white;
+        border-radius: 8px 8px 0 0;
     }
     .mat-expansion-panel-header-title {
         color: white !important;
@@ -72,6 +74,7 @@
         cursor: pointer;
         background: #1d8fa9;
         color: white;
+        border-radius: 8px 8px 0 0;
     }
     .mat-expansion-panel-header-title {
         color: white !important;
@@ -121,4 +124,16 @@
 
 .news-updates {
     color: #94b022;
+}
+
+::ng-deep .mat-chip.mat-standard-chip {
+    background-color: #044a98 !important;
+    color: #edf1f8 !important;
+    font-size: 18px !important;
+    font-weight: 900 !important;
+    padding: 20px 10px;
+}
+
+::ng-deep .mat-chip-list-wrapper {
+    justify-content: center !important;
 }
