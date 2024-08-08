@@ -111,5 +111,8 @@
       }
     }
   },
-  "defaultProject": "deployment-analyzer"
+  "defaultProject": "deployment-analyzer",
+  "cli": {
+    "analytics": "2118bd40-ea4d-4662-aae4-ec71379790ad"
+  }
 }
