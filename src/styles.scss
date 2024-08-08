@@ -18,3 +18,24 @@ body {
 mat-drawer-content {
     background-color: #edf1f8 !important;
 }
+
+// ========== THEME COLOR ========== //
+:root {
+
+    // MAIN COLORS (All text*, navigation, banner fills, label cells for tables)
+    --primary-color: #0562CB;
+    --secondary-color: #0D2B68;
+    --primary-light-color: #C4DFFE;
+    --secondary-light-color: #B9CDF6;
+    --primary-dark-color: #044A98;
+    --secondary-dark-color: #061634;
+
+    // ACCENT COLORS (Buttons, icons, important info/callouts)
+    --primary-accent-color: #1D8FA9;
+    --secondary-accent-color: #94B022;
+    --primary-accent-light-color: #CAEEF6;
+    --secondary-accent-light-color: #F2F7D9;
+    --primary-accent-dark-color: #166B7F;
+    --secondary-accent-dark-color: #6F8419;
+}
+
