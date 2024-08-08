@@ -28,11 +28,11 @@
                             <span class="pt-1">Company</span>
                         </span>
                     </a>
-                    <a mat-list-item routerLink="/profile/details" routerLinkActive="active" class="my-2">
+                    <a mat-list-item routerLink="/profile/product/details" routerLinkActive="active" class="my-2">
                         <span class="sub-menu-title">
                             <mat-icon>category</mat-icon>
                             <span class="pt-1">Product</span>
-                            
+
                         </span>
                     </a>
                 </mat-nav-list>
@@ -84,11 +84,20 @@
     </mat-drawer>
 
     <div class="content">
-        <button type="button" mat-button (click)="drawer.toggle()">
-            <mat-icon>menu</mat-icon>
-        </button>
+        <div class="toolbar-div shadow">
+            <mat-toolbar class="p-0">
+                <button type="button" mat-button (click)="drawer.toggle()" class="mx-2">
+                    <mat-icon>menu</mat-icon>
+                </button>
+                <span>My App</span>
+                <span class="example-spacer"></span>
+            </mat-toolbar>
+        </div>
         <div class="m-4 bg-color mat-typography">
             <router-outlet></router-outlet>
+        </div>
+        <div class="footer">
+            © 2024 Angular Design
         </div>
     </div>
 

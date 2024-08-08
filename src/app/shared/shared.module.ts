@@ -3,7 +3,7 @@ import { MaterialModule } from './material.module';
 
 @NgModule({
   declarations: [],
-  imports: [MaterialModule],
+  imports: [],
   exports: [MaterialModule],
 })
 export class SharedModule {}

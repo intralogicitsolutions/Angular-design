@@ -9,8 +9,9 @@ const routes: Routes = [
     component: ProfileComponent,
     children: [
       {
-        path: 'details',
-        component: DetailsComponent,
+        path: 'product',
+        loadChildren: () =>
+          import('./product/product.module').then((m) => m.ProductModule),
       },
     ],
   },
