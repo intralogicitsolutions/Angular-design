@@ -53,13 +53,20 @@
 
     ::ng-deep .mat-expansion-panel-body {
         background-color: #f2f7d9 !important;
+        p {
+            margin: 0 0 12px;
+            background: #94b02233;
+            padding: 5px;
+            color: #6d8707;
+            // text-decoration: underline;
+        }
     }
 }
 
 .key-updates {
     .mat-expansion-panel-body,
     .mat-expansion-panel {
-        background-color: #CAEEF6 !important;
+        background-color: #caeef6 !important;
     }
     .mat-expansion-panel-header:not([aria-disabled="true"]) {
         cursor: pointer;
@@ -71,7 +78,14 @@
         font-size: 20px;
     }
     ::ng-deep .mat-expansion-panel-body {
-        background-color: #CAEEF6 !important;
+        background-color: #caeef6 !important;
+        p {
+            margin: 0 0 12px;
+            background: #1d8fa936;
+            padding: 5px;
+            color: #0862cd;
+            // text-decoration: underline;
+        }
     }
 }
 
@@ -79,6 +93,32 @@
     height: 50px !important;
 }
 
-::ng-deep .mat-expansion-panel-body {
-    padding: 24px 16px 8px 24px !important;
+::ng-deep .news-studio .mat-expansion-panel-body,
+::ng-deep .key-updates .mat-expansion-panel-body {
+    padding: 24px 16px 8px 16px !important;
+}
+
+::ng-deep .mat-content {
+    overflow: initial !important;
+}
+
+.news {
+    margin-top: -4px !important;
+    font-size: 30px !important;
+}
+
+.company-fav {
+    color: #91439a;
+}
+
+.product-fav {
+    color: #397f7d;
+}
+
+.key-notes {
+    color: #1d8fa9;
+}
+
+.news-updates {
+    color: #94b022;
 }

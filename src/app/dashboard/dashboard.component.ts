@@ -9,5 +9,7 @@ export class DashboardComponent implements OnInit {
   panelOpenState = false;
   constructor() {}
 
-  ngOnInit(): void {}
+  ngOnInit(): void {
+    
+  }
 }
