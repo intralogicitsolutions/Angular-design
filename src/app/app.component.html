@@ -1,5 +1,8 @@
 <mat-drawer-container autosize class="h-100 w-100">
     <mat-drawer #drawer mode="side" [opened]="true" class="menu-drawer">
+        <div class="company-title">
+            Comapny Title
+        </div>
         <mat-nav-list class="nav-list">
             <a mat-list-item routerLink="/home" routerLinkActive="active" class="my-2">
                 <mat-icon>home</mat-icon>
@@ -11,7 +14,7 @@
                 <span>Dashboard</span>
             </a>
 
-            <mat-expansion-panel class="my-2 ">
+            <mat-expansion-panel class="my-2 expansion-panel">
                 <mat-expansion-panel-header>
                     <mat-panel-title class="panel-title">
                         <mat-icon>account_circle</mat-icon>
@@ -33,6 +36,31 @@
                     </a>
                 </mat-nav-list>
             </mat-expansion-panel>
+
+            <a mat-list-item routerLink="/analytics" routerLinkActive="active" class="my-2">
+                <mat-icon>analytics</mat-icon>
+                <span>Analytics</span>
+            </a>
+
+            <a mat-list-item routerLink="/explore-by" routerLinkActive="active" class="my-2">
+                <mat-icon>explore</mat-icon>
+                <span>Explore By</span>
+            </a>
+
+            <a mat-list-item routerLink="/region" routerLinkActive="active" class="my-2">
+                <mat-icon>south_america</mat-icon>
+                <span>Regions</span>
+            </a>
+
+            <a mat-list-item routerLink="/recently-viewed" routerLinkActive="active" class="my-2">
+                <mat-icon>visibility</mat-icon>
+                <span>Recently Viewed</span>
+            </a>
+
+            <a mat-list-item routerLink="/recent-news" routerLinkActive="active" class="my-2">
+                <mat-icon>newspaper</mat-icon>
+                <span>Recent News</span>
+            </a>
         </mat-nav-list>
     </mat-drawer>
 
