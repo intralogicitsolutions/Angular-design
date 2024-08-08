@@ -2,7 +2,7 @@ import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 
 import { DashboardRoutingModule } from './dashboard-routing.module';
-import { MatCardModule } from '@angular/material/card';
+import { SharedModule } from '../shared/shared.module';
 
 
 @NgModule({
@@ -10,7 +10,7 @@ import { MatCardModule } from '@angular/material/card';
   imports: [
     CommonModule,
     DashboardRoutingModule,
-    MatCardModule
+    SharedModule
   ]
 })
 export class DashboardModule { }

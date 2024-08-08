@@ -1,0 +1,84 @@
+.company-card {
+    background: #ebd7ed;
+    color: #0d2b68;
+
+    .mat-card-header {
+        background: #91439a;
+        color: white;
+    }
+}
+
+.product-card {
+    background: #d2ebea;
+    .mat-card-header {
+        background: #397f7d;
+        color: white;
+    }
+}
+
+.mat-card-header {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    margin: -16px -16px 16px -16px !important;
+    padding: 16px 16px 8px 16px;
+}
+
+.mat-card-avatar {
+    height: 40px;
+    width: auto;
+    border-radius: 50%;
+    flex-shrink: 0;
+    object-fit: cover;
+}
+
+.home {
+    font-size: 32px;
+}
+
+.news-studio {
+    .mat-expansion-panel-body,
+    .mat-expansion-panel {
+        background-color: #f2f7d9 !important;
+    }
+    .mat-expansion-panel-header:not([aria-disabled="true"]) {
+        cursor: pointer;
+        background: #94b022;
+        color: white;
+    }
+    .mat-expansion-panel-header-title {
+        color: white !important;
+        font-size: 20px;
+    }
+
+    ::ng-deep .mat-expansion-panel-body {
+        background-color: #f2f7d9 !important;
+    }
+}
+
+.key-updates {
+    .mat-expansion-panel-body,
+    .mat-expansion-panel {
+        background-color: #CAEEF6 !important;
+    }
+    .mat-expansion-panel-header:not([aria-disabled="true"]) {
+        cursor: pointer;
+        background: #1d8fa9;
+        color: white;
+    }
+    .mat-expansion-panel-header-title {
+        color: white !important;
+        font-size: 20px;
+    }
+    ::ng-deep .mat-expansion-panel-body {
+        background-color: #CAEEF6 !important;
+    }
+}
+
+.mat-expansion-panel-header.mat-expanded {
+    height: 50px !important;
+}
+
+::ng-deep .mat-expansion-panel-body {
+    padding: 24px 16px 8px 24px !important;
+}
