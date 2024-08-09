@@ -8,6 +8,9 @@ import { MatListModule } from '@angular/material/list';
 import { MatExpansionModule } from '@angular/material/expansion';
 import { MatChipsModule } from '@angular/material/chips';
 import { MatToolbarModule } from '@angular/material/toolbar';
+import { MatTabsModule } from '@angular/material/tabs';
+import { MatTableModule } from '@angular/material/table';
+import { MatPaginatorModule } from '@angular/material/paginator';
 
 @NgModule({
   declarations: [],
@@ -22,6 +25,9 @@ import { MatToolbarModule } from '@angular/material/toolbar';
     MatExpansionModule,
     MatChipsModule,
     MatToolbarModule,
+    MatTabsModule,
+    MatTableModule,
+    MatPaginatorModule,
   ],
 })
 export class MaterialModule {}
